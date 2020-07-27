@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/common_show_pwd" android:state_selected="true"></item>
+    <item android:drawable="@mipmap/common_show_pwd" android:state_checked="true"></item>
+    <item android:drawable="@mipmap/common_hind_pwd" android:state_selected="false"></item>
+</selector>

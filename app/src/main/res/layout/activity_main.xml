@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2C"
+    android:padding="@dimen/dim_15"
+    tools:context=".MainActivity">
+
+    <com.fickle.input.view.InputEditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        app:ient_operateTxt="true"
+        app:ient_openInputCheck="phone"
+        app:ient_openInputType="phone"
+        app:ient_operateClear="true"
+        app:ient_ed_hintColor="#66ffffff"
+        app:ient_ed_hintText="请输入手机号"
+        app:ient_operatePromptError="手机格式不对"
+        app:ient_operatePromptDefault="请输入手机号"/>
+
+
+    <com.fickle.input.view.InputEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        app:ient_operateTxt="true"
+        app:ient_openInputCheck="name"
+        app:ient_operateClear="true"
+        app:ient_ed_hintColor="#66ffffff"
+        app:ient_ed_hintText="请输入用户名"
+        app:ient_operatePromptError="用户名格式不对"
+        app:ient_operatePromptDefault="请输入用户名"/>
+
+    <com.fickle.input.view.InputEditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        app:ient_operateTxt="true"
+        app:ient_operateClear="true"
+        app:ient_openInputCheck="pwd"
+        app:ient_openInputType="pwd"
+        app:ient_ed_hintColor="#66ffffff"
+        app:ient_ed_hintText="请输入密码"
+        app:ient_operatePromptError="密码格式不对"
+        app:ient_operatePromptDefault="请输入密码"/>
+
+    <com.fickle.input.view.InputEditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        app:ient_operateTxt="true"
+        app:ient_operateClear="true"
+        app:ient_openInputCheck="code"
+        app:ient_operateSendCode="true"
+        app:ient_ed_hintColor="#66ffffff"
+        app:ient_ed_hintText="请输入验证码"
+        app:ient_operatePromptError="验证码格式不对"
+        app:ient_operatePromptDefault="请输入验证码"/>
+
+    <com.fickle.input.view.InputEditText
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        app:ient_operateTxt="true"
+        app:ient_operateClear="true"
+        app:ient_openInputCheck="none"
+        app:ient_operateCustomize="自定义按钮"
+        app:ient_ed_hintColor="#66ffffff"
+        app:ient_ed_hintText="请输入自定义内容"
+        app:ient_operatePromptDefault="请输入自定义内容"/>
+</LinearLayout>

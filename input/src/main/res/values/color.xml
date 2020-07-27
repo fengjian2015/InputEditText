@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--========================全局表单==========================-->
+    <!--提示文本颜色-->
+    <color name="common_prompt_default">#10B4DD</color>
+    <color name="common_hint">#66ffffff</color>
+    <color name="common_text">#FFFFFF </color>
+    <color name="common_prompt_error">#FF5D5B</color>
+    <!--线条颜色-->
+    <color name="common_line_default">#26ffffff</color>
+    <color name="common_line_select">#10B4DD</color>
+    <color name="common_line_error">#FF5D5B</color>
+
+    <!--未选中默认颜色-->
+    <color name="common_unselected">#66ffffff</color>
+    <!--选中默认颜色-->
+    <color name="common_selected">#10B4DD</color>
+</resources>

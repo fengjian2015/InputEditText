@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputEditText">
+        <attr name="ient_openInputType">
+            <flag name="none" value="1"></flag>
+            <flag name="number" value="2"></flag>
+            <flag name="phone" value="3"></flag>
+            <flag name="pwd" value="4"></flag>
+        </attr>
+        <attr name="ient_openInputCheck">
+            <flag name="none" value="1"></flag>
+            <flag name="phone" value="2"></flag>
+            <flag name="code" value="3"></flag>
+            <flag name="pwd" value="4"></flag>
+            <flag name="name" value="5"></flag>
+        </attr>
+
+        <attr name="ient_operateTxt" format="boolean"></attr>
+        <attr name="ient_operateClear" format="boolean"></attr>
+        <attr name="ient_operatePWD" format="boolean"></attr>
+        <attr name="ient_operateSendCode" format="boolean"></attr>
+        <attr name="ient_operateCaptcha" format="boolean"></attr>
+        <attr name="ient_operateAreaCode" format="boolean"></attr>
+        <attr name="ient_operatePromptDefault" format="string"></attr>
+        <attr name="ient_operatePromptError" format="string"></attr>
+        <attr name="ient_operateCustomize" format="string"></attr>
+        <attr name="ient_ed_textSize" format="dimension"></attr>
+        <attr name="ient_ed_textColor" format="color"></attr>
+        <attr name="ient_ed_hintText" format="string"></attr>
+        <attr name="ient_ed_hintColor" format="color"></attr>
+        <attr name="ient_ed_inputMax" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

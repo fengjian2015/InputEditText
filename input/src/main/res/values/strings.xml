@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">input</string>
+    <string name="login_code_resend">重新发送</string>
+    <string name="login_code_send">发送验证码</string>
+</resources>
