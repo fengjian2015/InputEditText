@@ -1,6 +1,6 @@
 ### 提示文本输入框
 ##### 话不多说，先展示效果
-![image](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
+![image](https://github.com/fengjian2015/InputEditText/blob/master/shili.gif)
 
 ##### 参数
 | attaes name        | 参数   |  用途  |
